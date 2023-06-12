@@ -1,0 +1,52 @@
+nav {
+    width: 100%;
+    background-color: #4268aea1;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+nav ul li a:hover { 
+    color: grey;
+}
+.active { 
+    color: grey;
+}
+
+
+.li-logout {
+    width: 80px !important;
+    height: 30px !important;
+    background-color: #0dcaf0;
+    position: absolute;
+    right: 15px;
+    top: 0%;
+    border: none;
+}
+
+.li-logout:hover {
+    color: white;
+    background-color: rgba(230, 222, 212, 0.729);
+}
+
+.li-logout a {
+    text-decoration: none !important;
+    color: black;
+}

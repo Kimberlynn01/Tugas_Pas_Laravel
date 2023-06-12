@@ -1,0 +1,74 @@
+* {
+    color: black !important;
+    padding: 0;
+    margin: 0%;
+}
+/* * {
+    color: black !important;
+    padding: 0;
+    margin: 0%;
+}
+
+.box-forms {
+    height: 100%;
+    width: 100%;
+    border: solid 1px rgb(102, 102, 102);
+    border-radius: 5px;
+}
+
+.btn-btn-add {
+    background-color: var(--bs-primary);
+    border: none;
+    width: 120px;
+}
+
+.btn-add {
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-add:hover {
+    /* background-color: rgba(128, 128, 128, 0.416); */
+    /* background-color: rgba(230, 222, 212, 0.729); */
+/* }  */
+
+
+.btn-add {
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-add:hover {
+    /* background-color: rgba(128, 128, 128, 0.416); */
+    background-color: rgba(230, 222, 212, 0.729);
+}
+
+.btn-home  {
+    background-color: #198754;
+    transition: all 1s;
+}
+
+.btn-home:hover  {
+    background-color: rgba(230, 222, 212, 0.729);
+}
+
+.box-forms {
+    padding: 0;
+    height: 20em;
+    width: 100%;
+    border: solid 1px rgb(102, 102, 102);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-forms form input {
+    width: 90%;
+    border: solid 1px #dedddd;
+}
+.box-forms form input:checked {
+    width: 90%;
+    border: solid 50px #dddede;
+}
+.box-forms form .form-select {
+    width: 90%;
+}
